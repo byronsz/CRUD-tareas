@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.alerta {
+  animation: tarea ease-in 100ms;
+  -webkit-animation: tarea ease-in 100ms;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fadeIn {
+  animation: fadeIn ease-in 100ms;
+  -webkit-animation: fadeIn ease-in 100ms;
+}
+
+
+@keyframes tarea {
+  from{
+    top: -30px;
+    opacity: 0;
+  }
+  to{
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn{
+  from{
+    left: -30px;
+    opacity: 0;
+  }
+  to{
+    left: 0;
+    opacity: 1;
+  }
 }
