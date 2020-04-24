@@ -1,0 +1,2 @@
+.alerta{animation:tarea .1s ease-in;-webkit-animation:tarea .1s ease-in}.fadeIn{animation:fadeIn .1s ease-in;-webkit-animation:fadeIn .1s ease-in}@-webkit-keyframes tarea{0%{top:-30px;opacity:0}to{top:0;opacity:1}}@keyframes tarea{0%{top:-30px;opacity:0}to{top:0;opacity:1}}@-webkit-keyframes fadeIn{0%{left:-30px;opacity:0}to{left:0;opacity:1}}@keyframes fadeIn{0%{left:-30px;opacity:0}to{left:0;opacity:1}}
+/*# sourceMappingURL=main.610e8de2.chunk.css.map */
